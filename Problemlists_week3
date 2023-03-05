@@ -1,0 +1,25 @@
+1) Research: Compare>> Creating Data type using Literal or Constructor
+In summary, calling dict() requires these steps:
+
+Find the object associated with the name "dict" and push it onto the stack.
+Push the key/value pairs onto the stack as constant values.
+Get the key/value pairs off of the stack and create a dictionary to hold the keyword arguments to the function.
+Call the constructor for dict to make a new object.
+Initialize the new object by passing the keyword arguments to its initialization method.
+3) Research: relationship between being a dynamically typed language and pointer
+Many dynamic programming languages are nothing but pointers.
+However *you* are not allowed to take direct advantage of that.
+
+More properly these are called ‘references’,
+ which means ‘a pointer that the user cannot change,
+  other than perhaps by replacing with the value from another reference’.
+
+Much of what dynamic programming environments offer requires
+that objects not be allocated on the processor’s stack,
+and hence any function’s local variables are actually pointers to data allocated on the heap.
+
+4) Research: tuple methods
+5) Rock, Paper, Scissor
+6) pop-Wiz with range
+7) studying methods for dictionaries
+8) compare python and java script which appropirate for data science and why?
