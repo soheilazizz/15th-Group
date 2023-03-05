@@ -1,6 +1,7 @@
 # set:
 # unordered Data types
 # you can not define empty set using literals
+# mutable
 
 emptyset = set()
 newset = {1,'ali',2,'a'} #مجموعه عضو تکراری نمی پذیرد
@@ -24,3 +25,8 @@ powerset = {1,4,9,16,25,36,49}
 print(oddset.intersection(powerset))
 print(oddset.union(powerset))
 print(len(oddset.union(powerset)))
+print(oddset.intersection_update(powerset)) #intersection is done and oddset
+# convert to newset as the intercetion
+print(oddset)
+# frozenset is immutable
+frozensett = frozenset(powerset)
